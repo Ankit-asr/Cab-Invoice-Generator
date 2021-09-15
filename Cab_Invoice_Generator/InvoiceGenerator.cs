@@ -23,6 +23,14 @@ namespace Cab_Invoice_Generator
 
             {
                 this.MINIMUM_COST_PER_KM = 15;
+                this.COST_PER_TIME = 1;
+                this.MINIMUM_FARE = 20;
+
+            }
+            if (this.type.Equals(RideType.PREMIUM_RIDE))
+
+            {
+                this.MINIMUM_COST_PER_KM = 15;
                 this.COST_PER_TIME = 2;
                 this.MINIMUM_FARE = 20;
             }
